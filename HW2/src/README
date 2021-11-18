@@ -1,0 +1,22 @@
+--How to compile:
+    In this directory, enter the following command:
+    $ make
+    It will generate the executable files "hw2" and "hw_parallel" in "HW2/bin"
+
+    If you want to remove all of them, please enter the following command:
+    $ make clean
+
+--How to Run
+    In "HW2/bin/", enter the following command:
+    Usage: ./<exe> <net file> <cell file> <output file>
+    e.g.:
+    $ ./hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
+    $ ../bin/hw2_parallel ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
+
+--Test
+    In "HW2/src/", enter the following command:
+    Usage: ./go.sh <case index>
+    It will run and produce p2-1.out in "HW/output/", then use verifier to check result
+    e.g.:
+    $ ./go.sh 1
+    
